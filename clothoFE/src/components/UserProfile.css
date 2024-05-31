@@ -1,0 +1,74 @@
+.user-profile-dropdown {
+    position: absolute;
+    left: 79%;
+    top: 65px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 230px;
+    z-index: 1000;
+    padding: 30px;
+    transition: opacity 0.3s;
+  }
+  
+  .user-profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .user-profile-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .user-profile-header p {
+    font-size: 13px;
+    margin: 4px 0 0;
+    color: #888;
+  }
+  
+  .user-profile-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .user-profile-links a:first-of-type {
+    border-top: none;
+  }
+  
+  .user-profile-links .link-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile-links .link-item span {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-right: 10px;
+  }
+  
+  .user-profile-links a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
